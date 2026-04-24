@@ -1,6 +1,6 @@
 workflows:
-  paz_castanhal:
-    name: PazCastanhal
+  paz_castanhal_temp:
+    name: PazCastanhalTemp
     max_build_duration: 60
     environment:
       flutter: stable
