@@ -1,20 +1,21 @@
 workflows:
-  build_and_test:
-    name: Build and Test
+  paz_castanhal:
+    name: PazCastanhal
     max_build_duration: 60
     environment:
       flutter: stable
       xcode: latest
       cocoapods: default
     scripts:
-      - name: Install dependencies
+      - name: Instalar dependências
         script: |
           flutter pub get
-      # - name: Run tests
+      # - name: Rodar testes
       #   script: |
       #     flutter test
       - name: Build iOS
         script: |
+          # Garante que as dependências estejam instaladas antes do build
           flutter pub get
           flutter build ios --release --no-codesign
       - name: Build Android
