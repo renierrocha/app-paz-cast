@@ -15,6 +15,7 @@ workflows:
       #     flutter test
       - name: Build iOS
         script: |
+          flutter pub get
           flutter build ios --release --no-codesign
       - name: Build Android
         script: |
