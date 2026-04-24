@@ -66,32 +66,30 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-</dict>
-
-		<!-- Permissões para recursos usados pelo app -->
-		<key>NSCameraUsageDescription</key>
-		<string>Este app precisa acessar a câmera para escanear QR codes e tirar fotos.</string>
-		<key>NSMicrophoneUsageDescription</key>
-		<string>Este app precisa acessar o microfone para gravação de áudio.</string>
-		<key>NSPhotoLibraryUsageDescription</key>
-		<string>Este app precisa acessar suas fotos para salvar e compartilhar imagens.</string>
-		<key>NSUserNotificationUsageDescription</key>
-		<string>Este app gostaria de enviar notificações para você.</string>
-		<key>NSLocationWhenInUseUsageDescription</key>
-		<string>Este app precisa acessar sua localização enquanto estiver em uso.</string>
-		<key>NSLocationAlwaysUsageDescription</key>
-		<string>Este app precisa acessar sua localização mesmo em segundo plano.</string>
-		<!-- Google Sign-In URL Scheme (ajuste o valor abaixo para o seu reverso do client ID) -->
-		<key>CFBundleURLTypes</key>
-		<array>
-			<dict>
-				<key>CFBundleTypeRole</key>
-				<string>Editor</string>
-				<key>CFBundleURLSchemes</key>
-				<array>
-					<string>com.googleusercontent.apps.XXXXXXXXXXXX-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
-				</array>
-			</dict>
-		</array>
+	<!-- Permissões para recursos usados pelo app -->
+	<key>NSCameraUsageDescription</key>
+	<string>Este app precisa acessar a câmera para escanear QR codes e tirar fotos.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Este app precisa acessar o microfone para gravação de áudio.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Este app precisa acessar suas fotos para salvar e compartilhar imagens.</string>
+	<key>NSUserNotificationUsageDescription</key>
+	<string>Este app gostaria de enviar notificações para você.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Este app precisa acessar sua localização enquanto estiver em uso.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Este app precisa acessar sua localização mesmo em segundo plano.</string>
+	<!-- Google Sign-In URL Scheme (ajuste o valor abaixo para o seu reverso do client ID) -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.XXXXXXXXXXXX-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
